@@ -1,0 +1,79 @@
+html{background-color: white;}
+header{background-color: rgb(131, 136, 133);
+       text-align: center;}
+
+nav{text-align: center;}
+
+nav a{display: inline-block;
+        padding: 10px ;
+        text-decoration: none;}
+        
+nav a:hover{background-color: rgb(142, 201, 150);
+                border-radius: 5px;}      
+                
+                
+#about{text-align: center;} 
+
+#about img{width: 200px;
+        height: 200px;
+border-radius: 50%;}
+
+#skills{text-align: center;
+}
+
+#table{border-collapse: collapse;
+        width: 400px;
+  margin: 0 auto;
+}              
+.skill{border: 1px solid  green ;
+border-width: 2px;}
+th{background-color:purple;
+        color: white;}
+
+
+#project{text-align: center;
+        width: 800px;
+        margin: 20px auto;}
+#form,#card{border: 1px solid black;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 15px auto;}
+
+#contact{
+text-align: center;
+}
+#contact-box{
+                 display: inline-flex;
+                border-collapse: collapse;
+                 }
+.contact{border: 2px solid rgb(51, 92, 12);
+                 width: 300px;
+}             
+
+
+
+
+button {
+  background-color:  rgb(153, 69, 69);
+  color: white;
+  padding: 5px 80px;
+  border-radius: 10px;
+
+}
+hr{height: 2px;
+        background-color: black;}
+
+button:hover{background-color: pink;}
+
+#backtotop{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 20px;
+        
+}
+.footer{
+        width: 100%;
+        height: 10px;
+         background-color: violet;
+         margin-top: 10px;}
