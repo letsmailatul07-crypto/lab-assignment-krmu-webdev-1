@@ -1,0 +1,88 @@
+/* Style.css for DreamHome Real Estate Website */
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; }
+body { background: #f7f7f7; }
+
+/* Navbar */
+header { width: 100%; background: white; padding: 20px 60px; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 10; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+header h2 { color: #2b4c84; }
+nav a { margin-left: 25px; text-decoration: none; color: #333; font-weight: 500; }
+
+/* Hero Section */
+.hero {
+    width: 100%;
+    height: 430px;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+                url('https://images.unsplash.com/photo-1568605114967-8130f3a36994') center/cover no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero h1 { font-size: 48px; font-weight: 700; }
+.hero p { margin-top: 10px; font-size: 18px; }
+
+/* Search Bar */
+.search-box { background: white; padding: 15px; border-radius: 8px; margin-top: 20px; display: flex; gap: 10px; }
+.search-box select, .search-box button {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+.search-box button { background: #2b4c84; color: white; border: none; cursor: pointer; }
+
+/* Section Title */
+.section-title {
+    text-align: center;
+    margin: 40px 0 20px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #2b4c84;
+}
+
+/* Latest Properties */
+.properties { display: flex; justify-content: center; gap: 20px; padding: 20px; }
+.properties img { width: 300px; border-radius: 10px; }
+
+/* Featured Agents */
+agents { display: flex; justify-content: center; gap: 30px; padding: 20px; }
+.agent-card { margin:auto;
+    background: white;
+    width: 260px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.agent-card img { width: 80px; height: 80px; border-radius: 50%; object-fit: cover; }
+.agent-card h4 { margin-top: 10px; font-size: 18px; }
+.agent-card p { margin-top: 5px; font-size: 14px; color: #666; }
+
+/* Why Choose Us */
+.why { display: flex; justify-content: center; gap: 20px; padding: 20px; }
+.why-card {
+    background: white;
+    width: 230px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.why-card h5 { margin-top: 10px; font-size: 16px; }
+
+/* Stats */
+.stats {
+    background: #2b4c84;
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    font-size: 18px;
+}
+.stats div { text-align: center; }
+.stats span { font-size: 28px; font-weight: 700; display: block; }
+
+footer { background: #2b4c84; padding: 20px; color: white; text-align: center; margin-top: 40px; }
